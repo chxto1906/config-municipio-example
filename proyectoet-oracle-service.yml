@@ -3,5 +3,5 @@ eureka.instance.hostname = localhost
 server.port = 8803
 
 profesores-mysql-service.ribbon.eureka.enabled= false
-profesores-mysql-service.ribbon.list-of-servers= localhost:8801 #localhost:9092,localhost:9999
+profesores-mysql-service.ribbon.list-of-servers= localhost:8801
 profesores-mysql-service.ribbon.server-list-refresh-interval= 15000
