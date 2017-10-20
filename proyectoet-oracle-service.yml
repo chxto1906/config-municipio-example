@@ -1,7 +1,15 @@
-eureka.client.service-url.default-zone = http://localhost:8761/eureka/
-eureka.instance.hostname = localhost
-server.port = 8803
+eureka:
+  client:
+    serviceUrlDefaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
 
-profesores-mysql-service.ribbon.eureka.enabled= false
-profesores-mysql-service.ribbon.list-of-servers= localhost:8801
-profesores-mysql-service.ribbon.server-list-refresh-interval= 15000
+server:
+  port: 8803
+
+profesores-mysql-service:
+  ribbon:
+    eureka:
+      enabled: false
+    listOfServers: localhost:8801
+    ServerListRefreshInterval: 15000
