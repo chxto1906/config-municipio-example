@@ -8,7 +8,7 @@ eureka:
 server:
   port : 8801
 
-proyectoet-oracle-service:
+proyectoetoracle:
   ribbon:
     eureka:
       enabled: false
