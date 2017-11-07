@@ -1,4 +1,13 @@
 
+eureka:
+  client:
+    serviceUrlDefaultZone : http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+turbine:
+  appConfig: profesores-mysql-service,proyectoet-oracle-service
+  clusterNameExpression: new String("default")
 
 server:
   port : 8810
