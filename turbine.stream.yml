@@ -6,7 +6,7 @@ eureka:
     hostname: localhost
 
 server:
-  port : 8871
+  port : 8810
 
 turbine:
   appConfig: profesores-mysql-service,proyectoet-oracle-service
