@@ -6,7 +6,7 @@ eureka:
     hostname: localhost
 
 server:
-  port: 8802
+  port: 8808
 
 
 zuul:
