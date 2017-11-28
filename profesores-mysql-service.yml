@@ -8,9 +8,3 @@ eureka:
 server:
   port : 8801
 
-proyectoet-oracle-service:
-  ribbon:
-    eureka:
-      enabled: false
-    listOfServers: localhost:8803
-    ServerListRefreshInterval: 15000
