@@ -9,4 +9,18 @@ server:
   port: 8802
 
 
+zuul:
+  routes:
+    profesores-mysql-service:
+      url: http://localhost:8801
+zuul:
+  routes:
+    proyectoet-oracle-service:
+      url: http://localhost:8803
+zuul:
+  routes:
+    avaluo-catastral-service:
+      url: http://localhost:8805
+
+
 
