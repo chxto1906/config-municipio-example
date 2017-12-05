@@ -8,6 +8,17 @@ eureka:
 server:
   port: 8808
 
+zuul:
+  routes:
+    profesores-mysql-service:
+      url: http://localhost:8801
+    proyectoet-oracle-service:
+      url: http://localhost:8803
+    avaluo-catastral-service:
+      url: http://localhost:8805
+    generate-certificate-service:
+      url: http://localhost:8806
+
 
 
 
