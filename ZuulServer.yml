@@ -1,0 +1,15 @@
+eureka:
+  client:
+    serviceUrlDefaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+server:
+  port: 8808
+
+/*zuul:
+  routes:
+    microservicio1:
+      url: http://localhost:8778
+    microservicio2:
+      url: http://localhost:8775*/
